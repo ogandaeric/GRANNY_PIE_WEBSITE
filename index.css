@@ -1,0 +1,93 @@
+.banner{
+    height:100vh;
+    width:100vw;
+    background:rgb(5, 1, 0);
+    position:relative ;
+    z-index:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center ;
+    align-items:center ; 
+    color:rgb(212, 16, 16);
+    line-height:8rem;
+}
+.banner a{
+    text-decoration:wavy;
+    color:rgb(1, 1, 10);
+    font-size: 100%;
+    font-style:italic;
+}
+.banner h1{
+    font-size:3rem;
+    color: rgb(245, 247, 245);
+    border:3mm;
+    border-style:double;
+    border-color: rgb(8, 8, 4);
+    text-decoration:double;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(243, 243, 240);
+}
+.banner u{
+    color: black;
+    text-decoration-color: #04020e;
+}
+.banner h4{
+    font-size:2rem;
+    border:2mm;
+    border-style:double;
+    color:rgb(4, 2, 12);
+    border-color: rgb(10, 8, 7);
+    width: 20;
+    height: 100;
+}
+.banner::before{
+    position:absolute ;
+    content:"";
+    height:inherit ;
+    width:inherit ;
+    background:url(https://64.media.tumblr.com/5eb1cf9e6b372fa9d23b2cf311c6391c/tumblr_nuddm0ChoP1s9x5uco1_1280.jpg) left /cover;
+    opacity:10;
+    z-index:-1;
+}
+.banner button{
+    padding:.4rem 4rem;
+    background:#faf5f5;
+    border:rgb(236, 233, 4);
+    border-style:double;
+    color:rgb(248, 245, 245);
+    margin-top:5rem;
+    cursor:pointer;
+}
+
+.recipe_div,{
+    height:1000vh;
+    width:200vh;
+    background:var(--blue);
+    color-scheme:inherit;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.recipe_div h1{
+    font-size: 2rem;
+    color: rgb(5, 5, 4);
+    margin-bottom: 1rem;
+}
+.recipe_div p{
+    font-size: 2rem;
+    color: rgb(245, 12, 4);
+}
+body hr{
+    list-style:lower-alpha;
+}
+body{
+    background-color: rgb(244, 248, 11);
+}
+.lastsection p{
+    color:green;
+    border:1cm;
+    border-color: red;
+}
